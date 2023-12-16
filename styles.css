@@ -6,8 +6,7 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: url(images/pexels-luis-del-río-15286.jpg);
-    background-color: aqua;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)-50%,rgba(0,0,0,0.5)-50%),url(images/pexels-greg-galas-2092828.jpg);
     background-size: cover;
     background-position: center;
 
@@ -63,3 +62,56 @@
     text-align: center;
     color: white;
 }
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid cyan;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+
+}
+button:hover span{
+    width: 100%;
+
+
+}
+button:hover{
+    border: none;
+}
+/* .container{
+    display: flex ;
+    /* text-align: center;
+    grid-template-columns: 150px 150px 150px; */
+/* }
+.Ordered_list{
+    display: flex 30%;
+    text-align: left;
+    padding: 25px;
+} */ 
